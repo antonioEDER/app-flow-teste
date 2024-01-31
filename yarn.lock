@@ -12,6 +12,16 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.23.9.tgz#7b903b6149b0f8fa7ad564af646c4c38a77fc44b"
   integrity sha512-9tcKgqKbs3xGJ+NtKF2ndOBBLVwPjl1SHxPQkd36r3Dlirw3xWUeGaTbqr7uGZcTaxkVNwc+03SVP7aCdWrTlA==
 
+"@capacitor/app@^5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-5.0.7.tgz#f71e81320bcd504c400c1f503ba43a88ccac96e8"
+  integrity sha512-oad0jwQu+vgQDukeS9UV56yG10dlxkAGGl26IQpZlTmg3dTI9qSJtvhmlLfkF0nEtoj5IsVQUPE+NLH1oZkgGQ==
+
+"@capacitor/live-updates@0.1.1-beta.4":
+  version "0.1.1-beta.4"
+  resolved "https://registry.yarnpkg.com/@capacitor/live-updates/-/live-updates-0.1.1-beta.4.tgz#73b510f3a3bb7dd494710e934523badc5935e1d6"
+  integrity sha512-aeI4rbdz8y5VjrP9JBSioEsQnoT08yogpp7nwO0hAZmXGn56JiqCJ4EW5d3tYw5Xl04BTw+xugJiIi2VUfzNlw==
+
 "@esbuild/linux-loong64@0.14.54":
   version "0.14.54"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.14.54.tgz#de2a4be678bd4d0d1ffbb86e6de779cde5999028"

@@ -4,5 +4,13 @@
   "webDir": "www",
   "server": {
     "androidScheme": "https"
+  },
+  "plugins": {
+    "LiveUpdates": {
+      "appId": "9da80750",
+      "channel": "Production",
+      "autoUpdateMethod": "background",
+      "maxVersions": 2
+    }
   }
 }
