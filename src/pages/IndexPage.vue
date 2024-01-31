@@ -1,7 +1,7 @@
 <template>
   <q-page class="row items-center justify-evenly">
     <example-component
-      title="Exemplo do component TESTE 02"
+      title="Exemplo do component TESTE 04"
       active
       :todos="todos"
       :meta="meta"
