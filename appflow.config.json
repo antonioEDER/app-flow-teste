@@ -3,7 +3,7 @@
     "apps":
 [
     {
-        "appId": "yourAppflowAppId",
+        "appId": "9da80750",
         "root": "src-capacitor",
         "dependencyInstallCommand": "cd .. && npm install",
         "webBuildCommand": "npx quasar build -m capacitor -T android --skip-pkg"
