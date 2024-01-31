@@ -10,7 +10,7 @@
       "appId": "9da80750",
       "channel": "Production",
       "autoUpdateMethod": "background",
-      "maxVersions": 2
+      "maxVersions": 5
     }
   }
 }

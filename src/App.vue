@@ -19,16 +19,22 @@ export default defineComponent({
       if (!Platform.is.capacitor) return;
       // Register event to fire each time user resumes the app
       App.addListener('resume', async () => {
+        console.log('localStorage', localStorage);
+
         if (localStorage.shouldReloadApp) {
           await LiveUpdates.reload();
         } else {
           const result = await LiveUpdates.sync();
+          console.log('else result', result);
+
           localStorage.shouldReloadApp = result.activeApplicationPathChanged;
         }
       });
 
       // First sync on app load
       const result = await LiveUpdates.sync();
+      console.log('ok result', result);
+
       localStorage.shouldReloadApp = result.activeApplicationPathChanged;
     },
   },
