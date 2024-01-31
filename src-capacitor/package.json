@@ -1,0 +1,19 @@
+{
+  "name": "app-flow-teste",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "author": "eder antonio <antonioeder007@gmail.com>",
+  "private": true,
+  "scripts": {
+    "android:conf": "yarn android:add",
+    "android": "npx cap update android && npx cap sync android && npx cap open android",
+    "android:sync": "npx cap update && npx cap sync",
+    "android:add": "npx cap add android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/app": "^5.0.0",
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/core": "^5.0.0"
+  }
+}
