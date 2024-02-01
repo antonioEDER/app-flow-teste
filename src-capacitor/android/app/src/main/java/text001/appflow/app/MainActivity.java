@@ -1,4 +1,4 @@
-package org.capacitor.quasar.app;
+package text001.appflow.app;
 
 import com.getcapacitor.BridgeActivity;
 

@@ -5,7 +5,7 @@
   "author": "eder antonio <antonioeder007@gmail.com>",
   "private": true,
   "scripts": {
-    "android:conf": "yarn android:add",
+    "android:conf": "app-flow-teste",
     "android": "npx cap update android && npx cap sync android && npx cap open android",
     "android:sync": "npx cap update && npx cap sync",
     "android:add": "npx cap add android"
