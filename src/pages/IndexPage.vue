@@ -1,7 +1,7 @@
 <template>
   <q-page class="row items-center justify-evenly">
     <example-component
-      title="Quasar App ESTA GO G PLAY"
+      title="Quasar App 2 14:35"
       active
       :todos="todos"
       :meta="meta"

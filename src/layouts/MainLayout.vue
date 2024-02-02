@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App ESTA GO G PLAY </q-toolbar-title>
+        <q-toolbar-title> Quasar App Quasar App 2 14:35 </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>

@@ -1,0 +1,16 @@
+{
+  "name": "text001.appflow.app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "channels": {
+    "Production": {
+      "id": "Production"
+    },
+    "Staging": {
+      "id": "Staging"
+    }
+  },
+  "id": "9da80750"
+}
