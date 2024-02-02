@@ -2,40 +2,20 @@
 
 A Quasar Project
 
-## Install the dependencies
+## AppFlow
+
 ```bash
-yarn
-# or
-npm install
+yarn add @ionic/cli@7.2.0
+export IONIC_TOKEN=<your personal access token>
+
+ionic init
+ionic signup
+ionic add --app-id="9da80750" --channel-name="Production"
+ionic build --app-id="9da80750" --channel-name="Production"
+
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+export IONIC_TOKEN=ion_fV4YOVHUqm0M7F2d58sTKpijx5qvMS1rJr6E34T5CR
+ionic live-update configure
+ionic live-update add --app-id="9da80750" --channel-name="Production" --update-method="background" && yarn remove vite
+ionic capacitor sync

@@ -11,13 +11,16 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "android": "quasar build -m capacitor -T android && cd src-capacitor/ && yarn android"
+    "android": "quasar build -m capacitor -T android && cd src-capacitor/ && yarn android",
+    "capacitor": "quasar build -m capacitor -T android"
   },
   "dependencies": {
     "@capacitor/app": "^5.0.7",
     "@capacitor/core": "^5.6.0",
     "@capacitor/live-updates": "0.1.1-beta.4",
+    "@ionic/cli": "7.2.0",
     "@quasar/extras": "^1.16.4",
+    "cordova-plugin-ionic": "5.5.3",
     "quasar": "^2.8.0",
     "vue": "^3.2.29",
     "vue-router": "^4.0.12"

@@ -5,12 +5,15 @@
   "server": {
     "androidScheme": "https"
   },
+  "android": {
+    "flavor": "qa"
+  },
   "plugins": {
     "LiveUpdates": {
       "appId": "9da80750",
       "channel": "Production",
       "autoUpdateMethod": "background",
-      "maxVersions": 5
+      "maxVersions": 1
     }
   }
 }
